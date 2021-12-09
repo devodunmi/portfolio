@@ -1,0 +1,123 @@
+/* ======================================
+//UTILITIES STYLING
+======================================*/
+.u-text-center {
+	text-align: center;
+}
+
+.heading-secondary {
+	text-align: center;
+	font-size: 2.5rem;
+	margin-bottom: 4rem;
+	color: darken(gray, 18%);
+}
+
+.heading-tertiary {
+	font-size: 1.8rem;
+	color: darken(gray, 18%);
+}
+
+p {
+	font-size: 1.3rem;
+	font-weight: 400;
+}
+
+.bottom-border {
+	border-bottom: 4px solid $dark-blue;
+	width: 4rem;
+	margin: 0 auto;
+	line-height: .2;
+}
+
+.about-me--line {
+	border-bottom: 4px solid $dark-blue;
+	width: 2rem;
+	text-align: left;
+}
+
+.margin-bottom-sm {
+	margin-bottom: .4rem;
+}
+
+.margin-bottom-bg {
+	margin-bottom: 6rem;
+}
+
+.padding-box {
+	padding: 5rem .4rem;
+}
+
+.margin-top-sm {
+	margin-top: .5rem;
+}
+
+.margin-top-md {
+	margin-top: 2rem;
+}
+
+.margin-top-md2 {
+	margin-top: 8rem;
+}
+
+.margin-top-lg {
+	margin-top: 10rem;
+}
+
+.card-body {
+	height: 100%;
+	background-color: white;
+	
+	.tech {
+		font-size: 1.1rem;
+		position: relative;
+		
+		display: block;
+		padding: .5rem;
+		margin-top: 1rem;
+
+		&-list {
+			font-size: 1.2rem;
+		}
+
+		&-heading {
+			background-color: $dark-magenta;
+			color: $white;
+			padding: .3rem .4rem;
+			font-weight: 300;
+			font-family: cursive;
+			letter-spacing: 1px;
+			border-radius: 1rem;
+		}
+	}
+
+	.live {
+		width: 100%;
+		margin-top: 30px;
+		position: relative;
+
+		a {
+			font-size: 1.3rem;
+		}
+
+		&-text {
+			text-decoration: underline;
+			cursor: pointer;
+			color: $dark-blue;
+			padding: 0 1.5rem;
+
+			&:hover,
+			&:active {
+				color: $dark-blue3;
+			}
+		}
+	}
+}
+
+.centralise {
+	display: flex;
+	justify-content: center;
+}
+
+/* ======================================
+//END UTILITIES STYLING
+======================================*/

@@ -1,0 +1,105 @@
+/* ======================================
+//RESPONSIVE STYLING
+======================================*/
+@media (min-width: 300px) and (max-width: 699px) {
+	.contact--message {
+		width: 95% !important;
+	}
+}
+
+@media (min-width: 700px) and (max-width: 1050px) {
+	.contact--message {
+		width: 70% !important;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.hero-text--main {
+		font-size: 2.3rem;
+	}
+}
+
+@media (min-width: 200px) and (max-width: 480px) {
+	.hero {
+		&-text--sub {
+			font-size: 1.4rem;
+		}
+
+		&-text--main {
+			font-size: 2.2rem;
+			font-weight: 300;
+		}
+
+		p {
+			padding: 0 .8rem;
+			line-height: 1.5;
+		}
+
+		.btn {
+			width: 10rem;
+		}
+	}
+
+	.heading-secondary {
+		font-size: 2rem;
+	}
+
+	.heading-tertiary {
+		font-size: 1.4rem;
+	}
+}
+
+@media (max-width: 900px) {
+	.about {
+		&-info {
+			display: flex;
+			flex-direction: column;
+		}
+
+		&-picture {
+			text-align: center;
+			width: 70%;
+			margin: 0 auto;
+			margin-bottom: 1.2rem;
+		}
+
+		&-text {
+			width: 100%;
+			padding: .6rem;
+		}
+
+		&-me--skills {
+			margin-bottom: 15rem;
+		}
+
+		.btn-group {
+			margin-bottom: .4rem;
+
+			.btn {
+				background-color: $dark-blue;
+				padding: .6rem .4rem;
+				font-size: 1.1rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 320px) {
+	#projects {
+		.card-body {
+			height: 100% !important;
+		}
+
+		.web-apps {
+			.card-text {
+				margin-top: 50px;
+				height: 350px !important;
+			}
+		}
+
+	}
+}
+
+/* ======================================
+//END RESPONSIVE STYLING
+======================================*/

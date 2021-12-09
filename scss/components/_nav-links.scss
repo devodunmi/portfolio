@@ -1,0 +1,20 @@
+/* ======================================
+//NAV LINKS
+======================================*/
+.navbar-nav {
+	font-size: 1.2rem;
+
+	a {
+		transition: all .3s;
+	}
+
+	a:hover {
+		transform: translateY(-5px);
+		color: $white !important;
+	}
+
+}
+
+/* ======================================
+//END NAV LINKS
+======================================*/

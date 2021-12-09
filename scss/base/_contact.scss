@@ -1,0 +1,48 @@
+/* ======================================
+//CONTACT STYLING
+======================================*/
+#contact {
+	width: 100%;
+	padding-top: 150px;
+	margin-top: -150px;
+	background-color: rgba($light-blue2, .01);
+
+	.container-fluid {
+		padding-top: 40px;
+		padding-bottom: 40px;
+		background-color: $dark-blue;
+	}
+
+	h3 {
+		color: white;
+		width: 100%;
+	}
+
+
+	a {
+		text-decoration: underline;
+	}
+
+	.contact--message {
+		margin: 0 auto;
+		margin-top: -40px;
+		width: 45%;
+
+		p {
+			color: white;
+			width: 100%;
+			line-height: 1.7rem;
+			font-weight: 300;
+		}
+	}
+
+	.socialIcons {
+		a {
+			font-size: 2rem;
+		}
+	}
+}
+
+/* ======================================
+//END CONTACT STYLING
+======================================*/

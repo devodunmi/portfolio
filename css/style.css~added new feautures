@@ -1,0 +1,214 @@
+/* ======================================
+//					PORTFOLIO BUTTON ANIMATION
+// ======================================*/
+@-webkit-keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+@keyframes hvr-buzz {
+  50% {
+    -webkit-transform: translateX(3px) rotate(2deg);
+    transform: translateX(3px) rotate(2deg); }
+  100% {
+    -webkit-transform: translateX(-3px) rotate(-2deg);
+    transform: translateX(-3px) rotate(-2deg); } }
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: .40s;
+  animation-duration: .40s;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+/* ======================================
+//					SOCIAL LINK ARROW ANIMATION
+// ======================================*/
+@-webkit-keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px); }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+@keyframes hvr-wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px); }
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px); }
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px); }
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px); }
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px); }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0); } }
+.hvr-wobble-horizontal {
+  display: inline-block;
+  vertical-align: middle;
+  margin-bottom: .5rem;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  -webkit-animation-name: hvr-wobble-horizontal;
+  animation-name: hvr-wobble-horizontal;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  background-color: #fff;
+  box-sizing: border-box; }
+
+.u-text-center {
+  text-align: center; }
+
+/* 
+======================================		
+	NAV AND HEADER
+======================================
+*/
+nav {
+  position: relative;
+  border-bottom: 10px groove #660066; }
+
+.header-text {
+  padding: 6.3rem 0px; }
+  .header-text--bg {
+    background: url("../images/OSDEVBG.jpg");
+    background-color: #fff;
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: top center;
+    min-height: 30rem; }
+  .header-text--box {
+    position: relative;
+    background-color: #fff;
+    margin-top: 6.9rem; }
+    .header-text--box__sub {
+      display: block;
+      font-size: 1.4rem; }
+    .header-text--box__main {
+      font-size: 3.3rem;
+      font-weight: 300;
+      display: block; }
+  .header-text .gold {
+    background-image: linear-gradient(to right, #876500, #ffc107);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 400; }
+  .header-text .magenta {
+    background-image: linear-gradient(to right, #660066, #ff1aff);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -ms-background-clip: text;
+    -o-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-weight: 400; }
+
+.header-text--socialIcons {
+  margin-top: 1.3rem;
+  background: #fff3f5; }
+  .header-text--socialIcons a {
+    font-size: 1.5rem;
+    margin-right: 15px; }
+  .header-text--socialIcons .fa-angle-double-right {
+    color: #660066; }
+  .header-text--socialIcons .fa-facebook {
+    color: #3b5998;
+    /* blue */ }
+    .header-text--socialIcons .fa-facebook:hover {
+      color: #6666ff;
+      /* light blue */ }
+  .header-text--socialIcons .fa-instagram {
+    color: #ff6bff;
+    /* light magenta */ }
+    .header-text--socialIcons .fa-instagram:hover {
+      color: #c32aa3;
+      /* dark magenta */ }
+  .header-text--socialIcons .fa-twitter {
+    color: #00aced;
+    /* twitter blue */ }
+    .header-text--socialIcons .fa-twitter:hover {
+      color: #007bb6; }
+  .header-text--socialIcons .fa-github {
+    color: #000000;
+    /*black*/ }
+    .header-text--socialIcons .fa-github:hover {
+      color: #333333; }
+
+/*
+======================================
+	ABOUT ME SECTION
+======================================
+*/
+.about-me {
+  margin-top: 5rem;
+  background-color: #fcfcfc; }
+  .about-me--picture {
+    width: 20rem; }
+  .about-me .col-lg-6 {
+    margin-bottom: 1.9rem; }
+  .about-me--border {
+    border-bottom: 4px inset #ffc107;
+    color: #fff;
+    width: 3.1rem;
+    text-align: center;
+    margin: 0 auto; }
+  .about-me .btn-group {
+    margin-top: .3rem; }
+  .about-me button {
+    background: #660066;
+    margin-right: .12rem;
+    font-weight: bold; }
+
+.about-me--line {
+  border-bottom: 4px inset #660066;
+  width: 1.3rem;
+  float: left; }
+
+/*# sourceMappingURL=style.css.map */

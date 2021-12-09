@@ -1,0 +1,46 @@
+/* ======================================
+//ABOUT STYLING
+======================================*/
+.about {
+	position: relative;
+	width: 100%;
+	margin-top: 100px;
+	
+	&--bg {
+		background-image: linear-gradient(to bottom, rgba($white, .1), rgba($light-blue2, .2));
+		background-color: $white;
+		-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 85%);
+	}
+
+	&-info {
+		display: flex;
+	}
+
+	&-picture {
+		width: 70%;
+		align-self: flex-start;
+	}
+
+	&-text {
+		width: 100%;
+		padding: .6rem;
+	}
+
+	&-me--skills {
+		margin-bottom: 3rem;
+	}
+
+	.btn-group {
+		margin-bottom: .4rem;
+
+		.btn {
+			background-color: $dark-blue;
+			padding: .6rem .4rem;
+			font-size: 1.1rem;
+		}
+	}
+}
+/* ======================================
+// END ABOUT STYLING
+======================================*/

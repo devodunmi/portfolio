@@ -1,0 +1,21 @@
+/* ======================================
+//FOOTER STYLING
+======================================*/
+#footer {
+	width: 100%;
+	background-color: $dark-blue;
+
+	.copyright {
+
+		P {
+			color: darken($white, 20%);
+			font-size: 1rem;
+			letter-spacing: .01rem;
+		}
+	}
+
+}
+
+/* ======================================
+//END FOOTER STYLING
+======================================*/

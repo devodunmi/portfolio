@@ -1,0 +1,103 @@
+/* ======================================
+//HEADER STYLING
+======================================*/
+.nav {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+
+	.navbar {
+		background-color: $dark-blue;
+		border-bottom: 5px solid $dark-blue3;
+		width: 100%;
+	}
+
+	img {
+		width: 50px;
+	}
+}
+
+.hero {
+	position: relative;
+	top: 40px;
+	z-index: 9;
+	margin-top: 20px;
+
+	&--bg {
+		background-image: url("../images/bg.jpg");
+		background-size: cover;
+		width: 100%;
+		background-position: top center;
+		background-repeat: no-repeat;
+		height: 480px;
+	}
+
+	&-text {
+		width: 100%;
+		position: absolute;
+		top: 25%;
+		background-color: $white;
+
+		&--sub {
+			display: block;
+			font-size: 1.6rem;
+		}
+
+		&--main {
+			font-size: 3rem;
+			display: block;
+			color: $dark-blue;
+			font-weight: 500;
+		}
+
+		p {
+			.b1 {
+				background-image: linear-gradient(to right, #ffc107, $dark-blue3);
+				background-color: #ffc107;
+				font-size: 1.6rem;
+			}
+
+			.b2 {
+				background-image: linear-gradient(to right, $light-blue1, #ff1aff);
+				background-color: $light-blue1;
+				font-size: 1.6rem;
+			}
+
+			.gradient {
+				-webkit-background-clip: text;
+				background-clip: text;
+				color: transparent !important;
+				color: black;
+				font-weight: 400;
+			}
+		}
+
+		.btn {
+			width: 12rem;
+			font-size: 1.1rem;
+			padding: .7rem 0;
+			color: $dark-blue;
+			background-color: $white;
+			outline: 3px solid $light-blue1;
+			transition: all .5s;
+
+			&:hover {
+				background-color: $dark-blue;
+				color: $white;
+				outline: none;
+				font-size: 1.2rem;
+				margin-top: -2px;
+				animation: none;
+			}
+
+			&:active {
+				width: 11rem;
+			}
+		}
+	}
+}
+
+/* ======================================
+//END HEADER STYLING
+======================================*/

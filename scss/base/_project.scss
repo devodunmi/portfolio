@@ -1,0 +1,85 @@
+/* ======================================
+//PROJECT STYLING
+======================================*/
+#projects {
+	width: 100%;
+	background-image: linear-gradient(to bottom, rgba($light-blue2, .5), rgba($light-blue2, .1));
+	background-color: $white;
+	margin-top: -20rem;
+
+	.projects {
+		padding-top: 270px;
+		padding-bottom: 200px;
+		width: 95%;
+		overflow: hidden;
+		margin: 0 auto;
+
+		.web-apps {
+			.card-text {
+				height: 200px;
+			}
+		}
+
+	}
+
+	.card {
+		position: relative;
+		width: 310px;
+		border-radius: 1.2rem;
+		overflow: hidden;
+		margin-bottom: 30px;
+		box-shadow: 1px 0 .4rem lighten(black, 15%);
+
+		&:not(:last-child) {
+			margin-right: 10px;
+		}
+
+		.card-img {
+			width: 100%;
+			outline: 22px solid #effafe;
+
+			img {
+				width: 100%;
+				height: 200px;
+			}
+		}
+	}
+
+	h3 {
+		background-color: $white;
+		position: absolute;
+		box-shadow: 0 .1rem .5rem lighten(black, 20%);
+		font-size: 1.8rem;
+		width: 170px;
+		top: 170px;
+		color: $dark-blue2;
+		right: -5px;
+		text-align: center;
+		padding: 10px;
+		transform: skewX(-9deg)
+	}
+}
+
+.web {
+	display: flex;
+
+	.img {
+		width: 100%;
+	}
+
+	img {
+		width: 100%;
+		border-left: 7px dashed $dark-blue;
+		border-bottom: 7px dashed $dark-blue;
+		outline-offset: 5px;
+		border-radius: 5px;
+	}
+
+
+}
+
+
+
+/* ======================================
+//END PROJECT STYLING
+======================================*/

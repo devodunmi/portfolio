@@ -1,0 +1,59 @@
+/* ======================================
+//SOCIAL LINKS
+======================================*/
+.socialIcons {
+	margin-top: 1.3rem;
+	background: lighten($light-blue1, 45%);
+
+	a {
+		font-size: 1.7rem;
+		margin-right: 15px;
+	}
+
+	.fa-angle-double-right {
+		color: $dark-blue;
+	}
+
+	.fa-facebook {
+		color: #3b5998;
+		/* blue */
+	}
+
+	.fa-facebook:hover {
+		color: #6666ff;
+		/* light blue */
+	}
+
+	.fa-instagram {
+		color: #ff6bff;
+		/* light magenta */
+	}
+
+	.fa-instagram:hover {
+		color: #c32aa3;
+		/* dark magenta */
+	}
+
+	.fa-github {
+		color: #000000;
+		/*black*/
+	}
+
+	.fa-github:hover {
+		color: #333333;
+	}
+
+	.fa-whatsapp {
+		color: #25D366;
+		/* whatsap green */
+	}
+
+	.fa-whatsapp:hover {
+		color: green;
+		/* dark green */
+	}
+}
+
+/* ======================================
+//END SOCIAL LINKS
+======================================*/
